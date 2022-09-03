@@ -1,0 +1,6 @@
+pytelegrambotapi
+gtts
+telegram
+selenium
+requests
+python-telegram-bot
