@@ -1,0 +1,6 @@
+Download chrome extension CRX file:
+https://standaloneinstaller.com/onlin...
+
+
+Make sure CRX file is of version CRX3 (CRX2 is not supported by latest chrome):
+https://crx-checker.appspot.com/
