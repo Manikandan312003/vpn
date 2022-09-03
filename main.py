@@ -13,8 +13,18 @@ driver=webdriver.Chrome(options=chrome_options)
 
 driver.get("https://www.1tamilmv.cyou/")
 
+
+
+print_string = driver.find_element(By.XPATH, "/html/body").text
+#print(print_string)
+driver.get("https://www.showmyip.com/")
 print_string = driver.find_element(By.XPATH, "/html/body").text
 print(print_string)
 input("Enter 1")
 
 driver.close()
+driver1=webdriver.Chrome()
+driver1.get("https://www.showmyip.com/")
+print_string = driver1.find_element(By.XPATH, "/html/body").text
+print(print_string)
+driver1.close()
